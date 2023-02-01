@@ -1,0 +1,989 @@
+<?xml version="1.0"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProgrammVersion="5.14.15.0">
+  <ProjectGuid>4cb7fa6f-80e7-4dae-a0b6-849238eee8bb</ProjectGuid>
+  <Name>Сотрудники</Name>
+  <NameInList>Сотрудники</NameInList>
+  <PathToProject>C:\Users\User\Desktop\Автотесты на RPA\4.Sotrudniki.rpa</PathToProject>
+  <Description />
+  <ScrollHeight>0</ScrollHeight>
+  <Variables>
+    <Variable xsi:type="VariableString">
+      <Key>CurrentDirectory</Key>
+      <Value>C:\Program Files (x86)\Lexema-RPA Studio</Value>
+    </Variable>
+    <Variable xsi:type="VariableString">
+      <Key>UserNameWindows</Key>
+      <Value>User</Value>
+    </Variable>
+    <Variable xsi:type="VariableString">
+      <Key>MachineName</Key>
+      <Value>LENOVOI5</Value>
+    </Variable>
+    <Variable xsi:type="VariableObject">
+      <Key>Resolution</Key>
+      <Value>
+        <Key>Width</Key>
+        <Value xsi:type="xsd:int">1920</Value>
+      </Value>
+      <Value>
+        <Key>Height</Key>
+        <Value xsi:type="xsd:int">1080</Value>
+      </Value>
+    </Variable>
+  </Variables>
+  <DopFiles>
+    <DopFile>
+      <Title>Переменные</Title>
+      <Type>GV</Type>
+    </DopFile>
+  </DopFiles>
+  <Commands>
+    <Command xsi:type="CommandGROUP" NumberCommand="1" Comment="Примечание" CreateCommand="GROUP" IsExecute="true" Stop="false" IsCollapse="false" Guid="244e1c64-3840-4cc4-9a76-6768feb79eaa" idProject="4cb7fa6f-80e7-4dae-a0b6-849238eee8bb">
+      <Commands>
+        <Command xsi:type="CommandExcel" NumberCommand="1" Comment="Общий файл" CreateCommand="Excel" IsExecute="true" Stop="false" IsCollapse="false" Guid="cbddeecc-2734-4a05-8313-bcd4ee9aff4f" idProject="73f1b971-aeb9-4dc7-93f5-b8c21fbb9fde">
+          <FilePath>C:\Users\User\Desktop\Автотесты на RPA\File.xlsx</FilePath>
+          <OnlyRead>false</OnlyRead>
+          <EncryptedPassword />
+          <listExcelCMDs>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>ФИО</ListNumberOrName>
+              <Cells>A1</Cells>
+              <NameVar>v.surname</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>ФИО</ListNumberOrName>
+              <Cells>B1</Cells>
+              <NameVar>v.name</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>ФИО</ListNumberOrName>
+              <Cells>C1</Cells>
+              <NameVar>v.secondname</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>ФИО</ListNumberOrName>
+              <Cells>E1</Cells>
+              <NameVar>v.FIO</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>ФИО</ListNumberOrName>
+              <Cells>G1</Cells>
+              <NameVar>v.tabelny</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>Подразделение</ListNumberOrName>
+              <Cells>A1</Cells>
+              <NameVar>v.podrazdelenie</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>Должности</ListNumberOrName>
+              <Cells>A1</Cells>
+              <NameVar>v.dolzhnost</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>Логин и пароль</ListNumberOrName>
+              <Cells>B1</Cells>
+              <NameVar>v.login</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>Логин и пароль</ListNumberOrName>
+              <Cells>B2</Cells>
+              <NameVar>v.password</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>Логин и пароль</ListNumberOrName>
+              <Cells>B6</Cells>
+              <NameVar>v.urlFizlico</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>Логин и пароль</ListNumberOrName>
+              <Cells>B7</Cells>
+              <NameVar>v.urlPodrazdelenie</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>Логин и пароль</ListNumberOrName>
+              <Cells>B8</Cells>
+              <NameVar>v.urlDolzhnosti</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>Логин и пароль</ListNumberOrName>
+              <Cells>B9</Cells>
+              <NameVar>v.urlSotrudniki</NameVar>
+              <Formula />
+              <Function />
+              <DopField>False</DopField>
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+          </listExcelCMDs>
+        </Command>
+        <Command xsi:type="CommandChromeDriverStart" NumberCommand="2" Comment="Создание физического лица" CreateCommand="ChromeDriver" IsExecute="true" Stop="false" IsCollapse="false" Guid="15927299-05f6-4ce2-b3f4-0bb1c57e663d" idProject="2a16303e-6d78-4f31-bbc6-79e025187081">
+          <dOpt>
+            <DriverKey>ChromeDriver</DriverKey>
+            <ProxyServer />
+            <ProxyPort />
+            <ProxyLogin />
+            <userPath />
+            <chromePath />
+            <agent />
+            <args />
+            <HideWindow>false</HideWindow>
+            <EncryptedProxyPassword />
+          </dOpt>
+          <listCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="documentsMenu"]/div[2]/div[1]/a/div/span</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Переходит на сайт</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Перейти</Action>
+              <ActionKey>Navigation</ActionKey>
+              <Url>v.urlFizlico</Url>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchType>GetElementById</SearchType>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>username</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.login</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит логин</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>password</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.password</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит пароль</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="login"]/div[3]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает Войти</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>toolBarItemNew</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает Создать</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>TextBox4</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает на поле Фамилия</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TextBox4"]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.surname</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит фамилию</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TextBox5"]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.firstname</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит Имя</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TextBox5"]/input</SearchStr>
+              <ActionOnPage>Нажать кнопку на клавиатуре</ActionOnPage>
+              <ActionOnPageKey>Key</ActionOnPageKey>
+              <VarVar>Enter</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает Enter</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TextBox6"]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.secondname</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит Отчество</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TextBox6"]/input</SearchStr>
+              <ActionOnPage>Нажать кнопку на клавиатуре</ActionOnPage>
+              <ActionOnPageKey>Key</ActionOnPageKey>
+              <VarVar>Enter</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает ENTER</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>SaveCloseToolbarItem1</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Сохраняет</Description>
+              <Waiting>10</Waiting>
+              <Pause>5000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+          </listCMD>
+        </Command>
+        <Command xsi:type="CommandChromeDriverStart" NumberCommand="3" Comment="Создание подразделения" CreateCommand="ChromeDriver" IsExecute="true" Stop="false" IsCollapse="false" Guid="ce7704db-d15e-4873-82ae-a5b7bc89074d" idProject="a7e70ad0-f448-4299-a1fc-3d73eb40a2e4">
+          <dOpt>
+            <DriverKey>ChromeDriver</DriverKey>
+            <ProxyServer />
+            <ProxyPort />
+            <ProxyLogin />
+            <userPath />
+            <chromePath />
+            <agent />
+            <args />
+            <HideWindow>false</HideWindow>
+            <EncryptedProxyPassword />
+          </dOpt>
+          <listCMD>
+            <SeleniumCMD>
+              <IsExecute>true</IsExecute>
+              <Description>Переходит на сайт</Description>
+              <Pause />
+              <Action>Перейти</Action>
+              <ActionKey>Navigation</ActionKey>
+              <Url>v.urlPodrazdelenie</Url>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>username</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.login</VarVar>
+              <IsExecute>false</IsExecute>
+              <Description>Вводит логин</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>password</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.password</VarVar>
+              <IsExecute>false</IsExecute>
+              <Description>Вводит пароль</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="login"]/div[3]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>false</IsExecute>
+              <Description>Нажимает Войти</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@title='Создать']</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает Создать</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="tbName"]/div/textarea</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.podrazdelenie</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит наименование</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>numiRank</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает на ранг</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>toolBarItemSaveClose</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Сохраняет и закрывает вкладку</Description>
+              <Waiting>10</Waiting>
+              <Pause>5000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+          </listCMD>
+        </Command>
+        <Command xsi:type="CommandChromeDriverStart" NumberCommand="4" Comment="Создание должности" CreateCommand="ChromeDriver" IsExecute="true" Stop="false" IsCollapse="false" Guid="11ca927e-aca9-4baa-8f7f-bfbbddccbe28" idProject="2a16303e-6d78-4f31-bbc6-79e025187081">
+          <dOpt>
+            <DriverKey>ChromeDriver</DriverKey>
+            <ProxyServer />
+            <ProxyPort />
+            <ProxyLogin />
+            <userPath />
+            <chromePath />
+            <agent />
+            <args />
+            <HideWindow>false</HideWindow>
+            <EncryptedProxyPassword />
+          </dOpt>
+          <listCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="documentsMenu"]/div[2]/div[1]/a/div/span</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Переходит на сайт</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Перейти</Action>
+              <ActionKey>Navigation</ActionKey>
+              <Url>v.urlDolzhnosti</Url>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>username</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.login</VarVar>
+              <IsExecute>false</IsExecute>
+              <Description>Вводит логин</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>password</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.password</VarVar>
+              <IsExecute>false</IsExecute>
+              <Description>Вводит пароль</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="login"]/div[3]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>false</IsExecute>
+              <Description>Нажимает Войти</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>NewDocumentToolbarItem1</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает Создать</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>TextBox1</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает на поле Наименование</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TextBox1"]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.dolzhnost</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит наименование</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index>0</Index>
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TextBox1"]/input</SearchStr>
+              <ActionOnPage>Нажать кнопку на клавиатуре</ActionOnPage>
+              <ActionOnPageKey>Key</ActionOnPageKey>
+              <VarVar>Enter</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>После ввода нажимает ENTER</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index>0</Index>
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>TxbNameShort</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает на поле Наименование сокращенное</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TxbNameShort"]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.podrazdelenie</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит Наименование сокращенное</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index>0</Index>
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>SaveCloseToolbarItem1</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Сохраняет и закрывает вкладку</Description>
+              <Waiting>10</Waiting>
+              <Pause>5000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+          </listCMD>
+        </Command>
+        <Command xsi:type="CommandChromeDriverStart" NumberCommand="5" Comment="Создание сотрудника" CreateCommand="ChromeDriver" IsExecute="true" Stop="false" IsCollapse="false" Guid="5b1c6c6a-0044-4519-86d9-073bc71e9dcf" idProject="9b3133fa-bcbc-42b6-9bd5-a9a954c51cf2">
+          <dOpt>
+            <DriverKey>ChromeDriver</DriverKey>
+            <ProxyServer />
+            <ProxyPort />
+            <ProxyLogin />
+            <userPath />
+            <chromePath />
+            <agent />
+            <args />
+            <HideWindow>false</HideWindow>
+            <EncryptedProxyPassword />
+          </dOpt>
+          <listCMD>
+            <SeleniumCMD>
+              <IsExecute>true</IsExecute>
+              <Description>Переходит на сайт</Description>
+              <Pause />
+              <Action>Перейти</Action>
+              <ActionKey>Navigation</ActionKey>
+              <Url>v.urlSotrudniki</Url>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>username</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.login</VarVar>
+              <IsExecute>false</IsExecute>
+              <Description>Вводит логин</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>password</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.password</VarVar>
+              <IsExecute>false</IsExecute>
+              <Description>Вводит пароль</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="login"]/div[3]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>false</IsExecute>
+              <Description>Нажимает Ввойти</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>toolItemNew</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает создать</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="lkpIdPerson"]/div[2]/div[2]/div[2]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.FIO</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Ищет ФИО</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="lkpIdPerson"]/div[2]/div[2]/div[2]/input</SearchStr>
+              <ActionOnPage>Нажать кнопку на клавиатуре</ActionOnPage>
+              <ActionOnPageKey>Key</ActionOnPageKey>
+              <VarVar>Enter</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Выбирает сотрудника</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="TextBox1"]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.tabelny</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит табельный номер</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="lkpIdDepartment"]/div[2]/div[2]/div[2]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.podrazdelenie</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Ищет подразделение</Description>
+              <Waiting>10</Waiting>
+              <Pause>2000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="lkpIdDepartment"]/div[2]/div[2]/div[2]/input</SearchStr>
+              <ActionOnPage>Нажать кнопку на клавиатуре</ActionOnPage>
+              <ActionOnPageKey>Key</ActionOnPageKey>
+              <VarVar>Enter</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Выбирает подразделение</Description>
+              <Waiting>10</Waiting>
+              <Pause>2000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="IdPost"]/div[2]/div[2]/div[2]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.dolzhnost</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Ищет должность</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="IdPost"]/div[2]/div[2]/div[2]/input</SearchStr>
+              <ActionOnPage>Нажать кнопку на клавиатуре</ActionOnPage>
+              <ActionOnPageKey>Key</ActionOnPageKey>
+              <VarVar>Enter</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Выбирает Должность</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="DateEDM"]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>01012022</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Выбирает дату КЭДО</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>SaveCloseToolbarItem1</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает сохранить и закрыть</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="appPanel"]/div[1]/div[1]/div/span[1]</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Закрывает реестр</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+          </listCMD>
+        </Command>
+      </Commands>
+    </Command>
+  </Commands>
+</Project>

@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProgrammVersion="5.14.15.0">
+  <ProjectGuid>e7f24ebc-57d8-42c8-962c-54b88ba88529</ProjectGuid>
+  <Name>111</Name>
+  <NameInList>111</NameInList>
+  <PathToProject>C:\Users\User\Desktop\Автотесты на RPA\7.Autorizacia.rpa</PathToProject>
+  <Description />
+  <ScrollHeight>0</ScrollHeight>
+  <Variables>
+    <Variable xsi:type="VariableString">
+      <Key>CurrentDirectory</Key>
+      <Value>C:\Program Files (x86)\Lexema-RPA Studio</Value>
+    </Variable>
+    <Variable xsi:type="VariableString">
+      <Key>UserNameWindows</Key>
+      <Value>User</Value>
+    </Variable>
+    <Variable xsi:type="VariableString">
+      <Key>MachineName</Key>
+      <Value>LENOVOI5</Value>
+    </Variable>
+    <Variable xsi:type="VariableObject">
+      <Key>Resolution</Key>
+      <Value>
+        <Key>Width</Key>
+        <Value xsi:type="xsd:int">1920</Value>
+      </Value>
+      <Value>
+        <Key>Height</Key>
+        <Value xsi:type="xsd:int">1080</Value>
+      </Value>
+    </Variable>
+    <Variable xsi:type="VariableTable">
+      <Key>text</Key>
+      <Value>
+        <Key>0</Key>
+        <Value>
+          <Key>Id</Key>
+          <Value xsi:type="xsd:double">786</Value>
+        </Value>
+        <Value>
+          <Key>Subject</Key>
+          <Value xsi:type="xsd:string">Регистрация в системе электронного документооборота</Value>
+        </Value>
+        <Value>
+          <Key>Body</Key>
+          <Value xsi:type="xsd:string">Добрый день, Степан Иванович.   Вы зарегистрированы в системе электронного документооборота «Лексема».Ваш логин KazakovSIВаш пароль Si489313Для начала работы зайдите в браузер по адресу: http://demo-ecm.dev.lan/
+Для корректной работы рекомендуется использовать Google Chrome. Сертификат для создания электронной подписи для подписания документов выпускается только в web -версии (открыть в браузере на компьютере сайт http://demo-ecm.dev.lan/) в области «Документооборот» на закладке «Сертификаты». После создания электронная подпись автоматически появляется в мобильном приложении. После создания сертификата электронной подписи  необходимо распечатать Заявление на выдачу  сертификата и Расписку о получении сертификата, подписать и направить бумажный вариант в отдел кадров. Для работы в мобильном приложении нужно пройти следующие шаги: Для входа в систему через мобильное приложение необходимо : 1. Скачать приложение : Мобильное приложение Lexema-ECM доступно для скачивания в магазинах приложений AppStore  и Google Play (название приложения – «Lexema-ECM») . 2. Ввести логин и пароль Ваш логин KazakovSI Ваш пароль Si489313 3. В мобильном приложении на телефоне нажать кнопку "Конфигурация" и отсканировать QR-код.  Получить QR-код  можно только в web-версии (открыть в браузере на компьютере сайт http://demo-ecm.dev.lan/).  В верхнем левом углу нажать на кнопку "Мобильное приложение" и выбрать пункт "Открыть QR-код для подключения" . 4. После этого   войти в приложение по кнопке "Войти".Электронная подпись появится сразу после выпуска сертификата в web-версии. Можно начинать работу В системе настроены бланки кадровых заявлений для подачи их в электронном виде через личный  кабинет сотрудника. Вы подписываете документы полученным сертификатом НЭП. Инструкции по работе в программе доступна в web-версии по кнопке «Справка» в правом верхнему углу. Обратиться в техническую поддержку можно следующими способами: - Написать заявку в техподдержку. Для этого зайдите в меню системы откройте документ "Заявки в техподдержку"</Value>
+        </Value>
+        <Value>
+          <Key>References</Key>
+          <Value xsi:type="xsd:string" />
+        </Value>
+        <Value>
+          <Key>ForReplyId</Key>
+          <Value xsi:type="xsd:string">8f482564-8249-9b61-1766-9c12978e5f52@lexema.ru</Value>
+        </Value>
+        <Value>
+          <Key>Sender</Key>
+          <Value xsi:type="xsd:string">desk@lexema.ru</Value>
+        </Value>
+        <Value>
+          <Key>Receivers</Key>
+          <Value xsi:type="xsd:string">mail.for.test.lexema@yandex.ru</Value>
+        </Value>
+        <Value>
+          <Key>Date</Key>
+          <Value xsi:type="xsd:string">13.10.2022 11:37:19 +00:00</Value>
+        </Value>
+        <Value>
+          <Key>Attachments</Key>
+          <Value xsi:type="xsd:string">System.Collections.Generic.List`1[System.Object]</Value>
+        </Value>
+      </Value>
+    </Variable>
+    <Variable xsi:type="VariableTable">
+      <Key>parol</Key>
+      <Value>
+        <Key>0</Key>
+        <Value>
+          <Key>Id</Key>
+          <Value xsi:type="xsd:double">796</Value>
+        </Value>
+        <Value>
+          <Key>Subject</Key>
+          <Value xsi:type="xsd:string">Lexema - восстановление пароля</Value>
+        </Value>
+        <Value>
+          <Key>Body</Key>
+          <Value xsi:type="xsd:string">789913 - код восстановления пароля для пользователя Александров Я. В.</Value>
+        </Value>
+        <Value>
+          <Key>References</Key>
+          <Value xsi:type="xsd:string" />
+        </Value>
+        <Value>
+          <Key>ForReplyId</Key>
+          <Value xsi:type="xsd:string">96d19d7e-ff69-1813-9699-18be3026ceee@lexema.ru</Value>
+        </Value>
+        <Value>
+          <Key>Sender</Key>
+          <Value xsi:type="xsd:string">desk@lexema.ru</Value>
+        </Value>
+        <Value>
+          <Key>Receivers</Key>
+          <Value xsi:type="xsd:string">mail.for.test.lexema@yandex.ru</Value>
+        </Value>
+        <Value>
+          <Key>Date</Key>
+          <Value xsi:type="xsd:string">17.10.2022 11:24:24 +00:00</Value>
+        </Value>
+        <Value>
+          <Key>Attachments</Key>
+          <Value xsi:type="xsd:string">System.Collections.Generic.List`1[System.Object]</Value>
+        </Value>
+      </Value>
+    </Variable>
+  </Variables>
+  <DopFiles>
+    <DopFile>
+      <Title>Переменные</Title>
+      <Type>GV</Type>
+    </DopFile>
+  </DopFiles>
+  <Commands>
+    <Command xsi:type="CommandSMTP_Read" NumberCommand="1" Comment="Считывание письма" CreateCommand="ReadSMTP" IsExecute="true" Stop="false" IsCollapse="false" Guid="9cd0bc01-8b0b-470c-b246-e8649678611f" idProject="e7f24ebc-57d8-42c8-962c-54b88ba88529">
+      <Host>imap.yandex.ru</Host>
+      <Port>993</Port>
+      <UseSSL>false</UseSSL>
+      <SecureNum>2</SecureNum>
+      <Email>mail.for.test.lexema@yandex.ru</Email>
+      <EncryptedPassword>9sSx80Y7Lr38NkxK0wZS1Q==</EncryptedPassword>
+      <NameVarResult>v.text</NameVarResult>
+      <IsVarReceiver>false</IsVarReceiver>
+      <listReceiver />
+      <NumTools>3</NumTools>
+      <Protocol>IMAP</Protocol>
+      <ReadFolderMail>Входящие</ReadFolderMail>
+      <UseUnRead>true</UseUnRead>
+      <ReadMails>true</ReadMails>
+      <NewFolders>false</NewFolders>
+      <NameDir>C:\Users\User\Desktop\Новая папка</NameDir>
+      <Date />
+      <DateOper>0</DateOper>
+      <SubjectRead>Регистрация в системе электронного документооборота</SubjectRead>
+      <SubjectReadOper>1</SubjectReadOper>
+      <SendersFilter />
+      <RecieversFilter />
+      <ParamsRead>1,1,1,1,1</ParamsRead>
+    </Command>
+    <Command xsi:type="CommandFOR" NumberCommand="2" Comment="Примечание" CreateCommand="FOR" IsExecute="true" Stop="false" IsCollapse="false" Guid="cca1e299-860b-4bc9-86e7-1ca4c993db48" idProject="e7f24ebc-57d8-42c8-962c-54b88ba88529">
+      <Commands>
+        <Command xsi:type="CommandCalculation" NumberCommand="1" Comment="Считывание логина и пароля" CreateCommand="Calculation" IsExecute="true" Stop="false" IsCollapse="false" Guid="4440e768-bb42-47e4-ba46-294ad3237a52" idProject="e7f24ebc-57d8-42c8-962c-54b88ba88529">
+          <Code>v.body = v.text[v.i].Body
+v.login = ''
+v.pass = ''
+v.loginM =  v.body.match(/Ваш логин [A-Za-z0-9]+/)
+if (v.loginM.length&gt;0) 
+  v.login = v.loginM[0].replace (/[^A-Za-z0-9]/gi,'')
+
+v.passM =  v.body.match(/Ваш пароль [A-Za-z0-9]+/)
+if (v.passM.length&gt;0) 
+  v.pass = v.passM[0].replace (/[^A-Za-z0-9]/gi,'')</Code>
+        </Command>
+        <Command xsi:type="CommandChromeDriverStart" NumberCommand="2" Comment="Вводит логина и пароля" CreateCommand="ChromeDriver" IsExecute="true" Stop="false" IsCollapse="false" Guid="a1c5aaa7-5091-49a4-84de-7504fb18c119" idProject="e7f24ebc-57d8-42c8-962c-54b88ba88529">
+          <dOpt>
+            <DriverKey>ChromeDriver</DriverKey>
+            <ProxyServer />
+            <ProxyPort />
+            <ProxyLogin />
+            <userPath />
+            <chromePath />
+            <agent />
+            <args />
+            <HideWindow>false</HideWindow>
+            <EncryptedProxyPassword />
+          </dOpt>
+          <listCMD>
+            <SeleniumCMD>
+              <IsExecute>true</IsExecute>
+              <Description />
+              <Pause>3000</Pause>
+              <Action>Перейти</Action>
+              <ActionKey>Navigation</ActionKey>
+              <Url>http://ecm-demo.dev.lan/#/login</Url>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>username</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.login</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит логин</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Url>http://ecm-demo.dev.lan/#/login</Url>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>password</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.pass</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит пароль</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="login"]/div[3]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает вход</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>/html/body/div[4]/div/div[2]/div[2]/input</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает "Продолжить"</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>/html/body/div[3]/div/div/div/div/div[4]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает отправить</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+          </listCMD>
+        </Command>
+        <Command xsi:type="CommandPause" NumberCommand="3" Comment="Пауза" CreateCommand="ProcessPause" IsExecute="true" Stop="false" IsCollapse="false" Guid="a437a8cc-a4a1-4ee6-95a0-1fb88c6b7691" idProject="e7f24ebc-57d8-42c8-962c-54b88ba88529">
+          <ProcessPause>5000</ProcessPause>
+        </Command>
+        <Command xsi:type="CommandSMTP_Read" NumberCommand="4" Comment="Считывание кода восстановления" CreateCommand="ReadSMTP" IsExecute="true" Stop="false" IsCollapse="false" Guid="4b4ae548-26e2-4742-b586-1fb3e27e3669" idProject="e7f24ebc-57d8-42c8-962c-54b88ba88529">
+          <Host>imap.yandex.ru</Host>
+          <Port>993</Port>
+          <UseSSL>false</UseSSL>
+          <SecureNum>2</SecureNum>
+          <Email>mail.for.test.lexema@yandex.ru</Email>
+          <EncryptedPassword>9sSx80Y7Lr38NkxK0wZS1Q==</EncryptedPassword>
+          <NameVarResult>v.parol</NameVarResult>
+          <IsVarReceiver>false</IsVarReceiver>
+          <listReceiver />
+          <NumTools>3</NumTools>
+          <Protocol>IMAP</Protocol>
+          <ReadFolderMail>Входящие</ReadFolderMail>
+          <UseUnRead>true</UseUnRead>
+          <ReadMails>true</ReadMails>
+          <NewFolders>false</NewFolders>
+          <NameDir>C:\Users\User\Desktop\Новая папка</NameDir>
+          <Date />
+          <DateOper>0</DateOper>
+          <SubjectRead>Lexema - восстановление пароля</SubjectRead>
+          <SubjectReadOper>1</SubjectReadOper>
+          <SendersFilter />
+          <RecieversFilter />
+          <ParamsRead>1,1,1,1,1</ParamsRead>
+        </Command>
+        <Command xsi:type="CommandCalculation" NumberCommand="5" Comment="Считывание кода восстановления" CreateCommand="Calculation" IsExecute="true" Stop="false" IsCollapse="false" Guid="c9dd0a53-b379-4aab-884d-a67c48389dd3" idProject="e7f24ebc-57d8-42c8-962c-54b88ba88529">
+          <Code>v.body = v.parol[v.i].Body
+v.passVos = ''
+v.passM =  v.body.match(/[0-9]+/)
+if (v.passM.length&gt;0) 
+    v.passVos = v.passM[0].replace (/[0-9]/gi,'')</Code>
+        </Command>
+        <Command xsi:type="CommandChromeDriverStart" NumberCommand="6" Comment="Ввод кода восстановления" CreateCommand="ChromeDriver" IsExecute="true" Stop="false" IsCollapse="false" Guid="44d64b69-8d4e-4b85-beb3-bf378d467e38" idProject="e7f24ebc-57d8-42c8-962c-54b88ba88529">
+          <dOpt>
+            <DriverKey>ChromeDriver</DriverKey>
+            <ProxyServer />
+            <ProxyPort />
+            <ProxyLogin />
+            <userPath />
+            <chromePath />
+            <agent />
+            <args />
+            <HideWindow>false</HideWindow>
+            <EncryptedProxyPassword />
+          </dOpt>
+          <listCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>/html/body/div[3]/div/div/div/div/form/div/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.passM</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит код восстановления</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>/html/body/div[3]/div/div/div/div/div[4]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает подтвердить</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>/html/body/div[3]/div/div/div/div/form/div[1]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>Master0895</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит новый пароль</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>/html/body/div[3]/div/div/div/div/form/div[2]/input</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>Master0895</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Подтверждает пароль</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>/html/body/div[3]/div/div/div/div/form/div[3]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает Применить</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>/html/body/div[3]/div/div/div/div/div[5]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает Вход</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>username</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>v.login</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит логин</Description>
+              <Waiting>10</Waiting>
+              <Pause>1000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementById</SearchTypeKey>
+              <SearchStr>password</SearchStr>
+              <ActionOnPage>Записать</ActionOnPage>
+              <ActionOnPageKey>Write</ActionOnPageKey>
+              <VarVar>Master0895</VarVar>
+              <IsExecute>true</IsExecute>
+              <Description>Вводит новый пароль</Description>
+              <Waiting>10</Waiting>
+              <Pause />
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+            <SeleniumCMD>
+              <SearchTypeKey>GetElementXPath</SearchTypeKey>
+              <SearchStr>//*[@id="login"]/div[3]/button</SearchStr>
+              <ActionOnPage>Нажать</ActionOnPage>
+              <ActionOnPageKey>Click</ActionOnPageKey>
+              <VarVar />
+              <IsExecute>true</IsExecute>
+              <Description>Нажимает ввойти</Description>
+              <Waiting>10</Waiting>
+              <Pause>5000</Pause>
+              <Action>Работа со страницей</Action>
+              <ActionKey>Page</ActionKey>
+              <Index />
+              <Property />
+              <Screen>false</Screen>
+            </SeleniumCMD>
+          </listCMD>
+        </Command>
+      </Commands>
+      <CountIteration>v.text.length</CountIteration>
+      <NameVar>v.i</NameVar>
+    </Command>
+  </Commands>
+</Project>
