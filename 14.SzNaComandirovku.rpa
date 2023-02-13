@@ -3,7 +3,7 @@
   <ProjectGuid>2189bec2-1a5b-4b4d-8986-9bb606bb7556</ProjectGuid>
   <Name>SzNaComandirovku</Name>
   <NameInList>SzNaComandirovku</NameInList>
-  <PathToProject>C:\Users\User\Desktop\Автотесты на RPA\13.SzNaComandirovku.rpa</PathToProject>
+  <PathToProject>C:\Users\User\Desktop\Автотесты на RPA\14.SzNaComandirovku.rpa</PathToProject>
   <Description />
   <ScrollHeight>0</ScrollHeight>
   <Variables>
@@ -79,11 +79,11 @@
         <ExcelCMD>
           <Action>Считать данные</Action>
           <ListNumberOrName>СЗ на командировку</ListNumberOrName>
-          <Cells>D1</Cells>
+          <Cells>E1</Cells>
           <NameVar>v.cel</NameVar>
           <Formula />
           <Function />
-          <DopField />
+          <DopField>False</DopField>
           <Key>ReadData</Key>
           <IsExecute>true</IsExecute>
         </ExcelCMD>
@@ -122,7 +122,7 @@
         </ExcelCMD>
       </listExcelCMDs>
     </Command>
-    <Command xsi:type="CommandChromeDriverStart" NumberCommand="2" Comment="Создание служебной записки" CreateCommand="ChromeDriver" IsExecute="true" Stop="false" IsCollapse="false" Guid="3be42935-d964-4076-96f0-21497553f2f5" idProject="2a16303e-6d78-4f31-bbc6-79e025187081">
+    <Command xsi:type="CommandChromeDriverStart" NumberCommand="2" Comment="Создание служебной записки" CreateCommand="ChromeDriver" IsExecute="true" Stop="false" IsCollapse="false" Guid="c1f66b9b-ca1f-4898-8434-67d1fb41b030" idProject="2a16303e-6d78-4f31-bbc6-79e025187081">
       <dOpt>
         <DriverKey>ChromeDriver</DriverKey>
         <ProxyServer />
@@ -426,25 +426,121 @@
           <Screen>false</Screen>
         </SeleniumCMD>
         <SeleniumCMD>
-          <SearchType>GetElementByClass</SearchType>
-          <SearchTypeKey>GetElementByClass</SearchTypeKey>
-          <SearchStr>lookup-input lookup-right-input</SearchStr>
+          <SearchTypeKey>GetElementXPath</SearchTypeKey>
+          <SearchStr>//*[@class='grid-customCellData grid-cb-cellDisplayMember']</SearchStr>
           <ActionOnPage>Нажать</ActionOnPage>
           <ActionOnPageKey>Click</ActionOnPageKey>
           <VarVar />
           <IsExecute>true</IsExecute>
           <Description>Нажимает на лукап</Description>
+          <Waiting>30</Waiting>
+          <Pause>1500</Pause>
+          <Action>Работа со страницей</Action>
+          <ActionKey>Page</ActionKey>
+          <Index />
+          <Property />
+          <Screen>false</Screen>
+        </SeleniumCMD>
+        <SeleniumCMD>
+          <SearchTypeKey>GetElementXPath</SearchTypeKey>
+          <SearchStr>//*[@class='lookup-input lookup-right-input']</SearchStr>
+          <ActionOnPage>Записать</ActionOnPage>
+          <ActionOnPageKey>Write</ActionOnPageKey>
+          <VarVar>а</VarVar>
+          <IsExecute>true</IsExecute>
+          <Description>Вводит букву</Description>
+          <Waiting>30</Waiting>
+          <Pause>1500</Pause>
+          <Action>Работа со страницей</Action>
+          <ActionKey>Page</ActionKey>
+          <Index>4</Index>
+          <Property />
+          <Screen>false</Screen>
+        </SeleniumCMD>
+        <SeleniumCMD>
+          <SearchTypeKey>GetElementXPath</SearchTypeKey>
+          <SearchStr>//*[@class='lookup-input lookup-right-input']</SearchStr>
+          <ActionOnPage>Нажать кнопку на клавиатуре</ActionOnPage>
+          <ActionOnPageKey>Key</ActionOnPageKey>
+          <VarVar>Enter</VarVar>
+          <IsExecute>true</IsExecute>
+          <Description>Нажимает ввод</Description>
+          <Waiting>30</Waiting>
+          <Pause>2000</Pause>
+          <Action>Работа со страницей</Action>
+          <ActionKey>Page</ActionKey>
+          <Index>4</Index>
+          <Property />
+          <Screen>false</Screen>
+        </SeleniumCMD>
+        <SeleniumCMD>
+          <SearchTypeKey>GetElementXPath</SearchTypeKey>
+          <SearchStr>//*[@class='lookup-input lookup-right-input']</SearchStr>
+          <ActionOnPage>Нажать кнопку на клавиатуре</ActionOnPage>
+          <ActionOnPageKey>Key</ActionOnPageKey>
+          <VarVar>Enter</VarVar>
+          <IsExecute>true</IsExecute>
+          <Description>Подтверждает</Description>
+          <Waiting>30</Waiting>
+          <Pause>2000</Pause>
+          <Action>Работа со страницей</Action>
+          <ActionKey>Page</ActionKey>
+          <Index>4</Index>
+          <Property />
+          <Screen>false</Screen>
+        </SeleniumCMD>
+        <SeleniumCMD>
+          <SearchTypeKey>GetElementXPath</SearchTypeKey>
+          <SearchStr>//*[@id="toolBarItemRoute"]/img</SearchStr>
+          <ActionOnPage>Нажать</ActionOnPage>
+          <ActionOnPageKey>Click</ActionOnPageKey>
+          <VarVar />
+          <IsExecute>true</IsExecute>
+          <Description>Нажимает на "Маршрут"</Description>
           <Waiting>10</Waiting>
           <Pause>5000</Pause>
           <Action>Работа со страницей</Action>
           <ActionKey>Page</ActionKey>
-          <Index>0</Index>
+          <Index />
+          <Property />
+          <Screen>false</Screen>
+        </SeleniumCMD>
+        <SeleniumCMD>
+          <SearchType>GetElementById</SearchType>
+          <SearchTypeKey>GetElementById</SearchTypeKey>
+          <SearchStr>toolItemRouteNext1</SearchStr>
+          <ActionOnPage>Нажать</ActionOnPage>
+          <ActionOnPageKey>Click</ActionOnPageKey>
+          <VarVar />
+          <IsExecute>true</IsExecute>
+          <Description>Нажимает "Подписать ЭП"</Description>
+          <Waiting>10</Waiting>
+          <Pause>7000</Pause>
+          <Action>Работа со страницей</Action>
+          <ActionKey>Page</ActionKey>
+          <Index />
+          <Property />
+          <Screen>false</Screen>
+        </SeleniumCMD>
+        <SeleniumCMD>
+          <SearchTypeKey>GetElementXPath</SearchTypeKey>
+          <SearchStr>//*[@id="btnOK"]/input</SearchStr>
+          <ActionOnPage>Нажать</ActionOnPage>
+          <ActionOnPageKey>Click</ActionOnPageKey>
+          <VarVar />
+          <IsExecute>true</IsExecute>
+          <Description>Нажимает "Ок"</Description>
+          <Waiting>10</Waiting>
+          <Pause>5000</Pause>
+          <Action>Работа со страницей</Action>
+          <ActionKey>Page</ActionKey>
+          <Index />
           <Property />
           <Screen>false</Screen>
         </SeleniumCMD>
       </listCMD>
     </Command>
-    <Command xsi:type="CommandExcel" NumberCommand="3" Comment="Удаление данных" CreateCommand="Excel" IsExecute="false" Stop="false" IsCollapse="false" Guid="9deb9477-dbe6-464d-9385-45a84a69c7cf" idProject="2189bec2-1a5b-4b4d-8986-9bb606bb7556">
+    <Command xsi:type="CommandExcel" NumberCommand="3" Comment="Удаление данных" CreateCommand="Excel" IsExecute="true" Stop="false" IsCollapse="false" Guid="e3b9445e-cde2-4d88-a2de-4ada5d7559c2" idProject="2189bec2-1a5b-4b4d-8986-9bb606bb7556">
       <FilePath>C:\Users\User\Desktop\Автотесты на RPA\File.xlsx</FilePath>
       <OnlyRead>false</OnlyRead>
       <EncryptedPassword />
