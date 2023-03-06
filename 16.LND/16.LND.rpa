@@ -3,7 +3,7 @@
   <ProjectGuid>a41d6645-8f96-4b5b-8d6d-3e393f804af2</ProjectGuid>
   <Name>ЛНД</Name>
   <NameInList>ЛНД</NameInList>
-  <PathToProject>C:\Users\User\Desktop\Автотесты на RPA\16.ЛНД.rpa</PathToProject>
+  <PathToProject>C:\Users\User\Desktop\Автотесты на RPA\16.LND\16.LND.rpa</PathToProject>
   <Description />
   <ScrollHeight>0</ScrollHeight>
   <Variables>
@@ -40,7 +40,7 @@
   <Commands>
     <Command xsi:type="CommandGROUP" NumberCommand="1" Comment="Примечание" CreateCommand="GROUP" IsExecute="true" Stop="false" IsCollapse="false" Guid="bc389449-6124-4caa-b423-3f51325e466a" idProject="a41d6645-8f96-4b5b-8d6d-3e393f804af2">
       <Commands>
-        <Command xsi:type="CommandExcel" NumberCommand="1" Comment="Считвание данных" CreateCommand="Excel" IsExecute="true" Stop="false" IsCollapse="false" Guid="81b91aca-7591-4b94-9066-dd38c8c99ff7" idProject="a41d6645-8f96-4b5b-8d6d-3e393f804af2">
+        <Command xsi:type="CommandExcel" NumberCommand="1" Comment="Считывание данных" CreateCommand="Excel" IsExecute="true" Stop="false" IsCollapse="false" Guid="81b91aca-7591-4b94-9066-dd38c8c99ff7" idProject="a41d6645-8f96-4b5b-8d6d-3e393f804af2">
           <FilePath>C:\Users\User\Desktop\Автотесты на RPA\File.xlsx</FilePath>
           <OnlyRead>false</OnlyRead>
           <EncryptedPassword />
@@ -72,6 +72,17 @@
               <ListNumberOrName>Логин и пароль</ListNumberOrName>
               <Cells>B2</Cells>
               <NameVar>v.password</NameVar>
+              <Formula />
+              <Function />
+              <DopField />
+              <Key>ReadData</Key>
+              <IsExecute>true</IsExecute>
+            </ExcelCMD>
+            <ExcelCMD>
+              <Action>Считать данные</Action>
+              <ListNumberOrName>ЛНД</ListNumberOrName>
+              <Cells>A1</Cells>
+              <NameVar>v.podtip</NameVar>
               <Formula />
               <Function />
               <DopField />
@@ -202,11 +213,12 @@
               <Screen>false</Screen>
             </SeleniumCMD>
             <SeleniumCMD>
+              <SearchType>GetElementXPath</SearchType>
               <SearchTypeKey>GetElementXPath</SearchTypeKey>
               <SearchStr>//*[@id="lkpDocumentCategory"]/div[2]/div[2]/div[2]/input</SearchStr>
               <ActionOnPage>Записать</ActionOnPage>
               <ActionOnPageKey>Write</ActionOnPageKey>
-              <VarVar>Инструкция по работе с КЭДО "Lexema"</VarVar>
+              <VarVar>v.podtip</VarVar>
               <IsExecute>true</IsExecute>
               <Description>Выбирает "Подтип документа" из выпадающего списка</Description>
               <Waiting>10</Waiting>
@@ -250,7 +262,6 @@
               <Screen>false</Screen>
             </SeleniumCMD>
             <SeleniumCMD>
-              <SearchType>GetElementById</SearchType>
               <SearchTypeKey>GetElementById</SearchTypeKey>
               <SearchStr>btnAddFile</SearchStr>
               <ActionOnPage>Нажать</ActionOnPage>
