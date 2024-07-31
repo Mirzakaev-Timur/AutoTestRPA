@@ -16,8 +16,6 @@
 * Скачать Lexema-RPA Studio по [ссылке](https://www.lexema.ru/solutions/lexema-rpa-programmnye-roboty/lexema-rpa-studio/);
 ### Авторизация Lexema-RPA Studio
 1. Запустите программу;
-2. Введите логин AutoTestLexema
-3. Введите пароль Master_0895
 4. Пройдите авторизацию;
 
 ## Запуск автотеста:
